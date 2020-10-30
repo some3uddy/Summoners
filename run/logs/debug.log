@@ -726,3 +726,23 @@
 [30Okt2020 13:48:42.575] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
 [30Okt2020 13:53:35.479] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save flat
 [30Okt2020 13:53:35.484] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete flat
+[30Okt2020 13:55:47.596] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30Okt2020 13:55:47.647] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[30Okt2020 13:55:47.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[30Okt2020 13:55:47.655] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[30Okt2020 13:55:47.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Okt2020 13:55:47.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Okt2020 13:55:47.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Okt2020 13:55:47.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[flat]'/minecraft:overworld
+[30Okt2020 13:55:47.741] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (flat): All chunks are saved
+[30Okt2020 13:55:47.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[flat]'/minecraft:the_nether
+[30Okt2020 13:55:47.742] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Okt2020 13:55:47.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[flat]'/minecraft:the_end
+[30Okt2020 13:55:47.743] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Okt2020 13:55:47.743] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save flat
+[30Okt2020 13:55:47.747] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete flat
+[30Okt2020 13:55:47.758] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (flat): All chunks are saved
+[30Okt2020 13:55:47.760] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Okt2020 13:55:47.761] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Okt2020 13:55:48.227] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./saves/flat/serverconfig
+[30Okt2020 13:55:48.228] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
