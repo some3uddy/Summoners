@@ -95,3 +95,19 @@
 [30Okt2020 14:19:45.047] [Render thread/INFO] [com.mlh.summoners.Summoners/]: Pressed button with index: 1
 [30Okt2020 14:19:45.264] [Render thread/INFO] [com.mlh.summoners.Summoners/]: Pressed button with index: 1
 [30Okt2020 14:19:45.468] [Render thread/INFO] [com.mlh.summoners.Summoners/]: Pressed button with index: 0
+[30Okt2020 14:21:26.830] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30Okt2020 14:21:26.845] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[30Okt2020 14:21:26.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[30Okt2020 14:21:26.851] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[30Okt2020 14:21:26.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Okt2020 14:21:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Okt2020 14:21:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Okt2020 14:21:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[flat]'/minecraft:overworld
+[30Okt2020 14:21:26.941] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (flat): All chunks are saved
+[30Okt2020 14:21:26.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[flat]'/minecraft:the_nether
+[30Okt2020 14:21:26.943] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Okt2020 14:21:26.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[flat]'/minecraft:the_end
+[30Okt2020 14:21:26.944] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Okt2020 14:21:26.959] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (flat): All chunks are saved
+[30Okt2020 14:21:26.961] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Okt2020 14:21:26.961] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
