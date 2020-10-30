@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent
 
 @Mod.EventBusSubscriber(modid = Summoners.ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = [Dist.CLIENT])
-object ClientEventBusSubscriber {
+object ClientSetupEvent {
     @SubscribeEvent
     fun onClientSetup(event: FMLClientSetupEvent) {
         RenderingRegistry.registerEntityRenderingHandler(CANID) { renderManagerIn: EntityRendererManager ->

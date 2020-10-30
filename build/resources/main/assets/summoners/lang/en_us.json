@@ -4,5 +4,6 @@
   "block.summoners.corundum_block": "Block of Corundum",
   "entity.summoners.canid": "Canid",
   "key.category.summoners": "Summoners",
-  "key.open_demon_gui": "Open Demon Inventory"
+  "key.open_demon_gui": "Open Demon Inventory",
+  "inventory.title.demon_selection": "Choose a demon"
 }

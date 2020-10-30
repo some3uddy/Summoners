@@ -1,7 +1,7 @@
 package com.mlh.summoners.events
 
 import com.mlh.summoners.Summoners
-import com.mlh.summoners.client.guis.DemonScreenTest
+import com.mlh.summoners.client.guis.DemonScreen
 import com.mlh.summoners.util.OPEN_DEMON_GUI_KEY_BIND
 import net.minecraftforge.api.distmarker.Dist
 import net.minecraftforge.client.event.InputEvent
@@ -13,7 +13,7 @@ object KeyInputEvent {
     @SubscribeEvent
     fun onKeyInput(event: InputEvent.KeyInputEvent) {
         when (event.key) {
-            OPEN_DEMON_GUI_KEY_BIND.key.keyCode -> DemonScreenTest.open()
+            OPEN_DEMON_GUI_KEY_BIND.key.keyCode -> DemonScreen.open()
         }
     }
 }

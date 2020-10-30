@@ -10,7 +10,6 @@ import com.mlh.summoners.util.registerRegistry
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack
-import net.minecraftforge.eventbus.api.EventPriority
 import net.minecraftforge.fml.DeferredWorkQueue
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent
@@ -36,13 +35,11 @@ object Summoners {
         registerRegistry()
 
         MOD_BUS.addListener(::setup)
-        FORGE_BUS.addListener(EventPriority.NORMAL, KeyInputEvent::onKeyInput)
+        FORGE_BUS.addListener(KeyInputEvent::onKeyInput)
     }
 
     private fun setup(event: FMLCommonSetupEvent) {
         LOGGER.log(Level.INFO, "common setup")
-
-        // event.enqueueWork {} ?
 
         DeferredWorkQueue.runLater {
             GlobalEntityTypeAttributes.put(CANID, CanidEntity.getAttributes().create())
