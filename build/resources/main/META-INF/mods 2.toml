@@ -1,0 +1,42 @@
+# kotlin for forge addition
+modLoader = "kotlinforforge" #mandatory
+loaderVersion = "[1,)"
+
+license = "All rights reserved"
+
+# issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId = "summoners" #mandatory
+
+version = "1.0.0" #mandatory
+
+displayName = "Summoners" #mandatory
+
+# updateJSONURL = "http://myurl.me/" #optional
+
+# displayURL = "http://example.com/" #optional
+
+# logoFile = "examplemod.png" #optional
+
+# credits = "Thanks for this example mod goes to Java" #optional
+
+authors = "Qui2013" #optional
+
+description = '''
+This is a mod
+'''
+
+[[dependencies.summoners]]
+modId = "forge"
+mandatory = true
+versionRange = "[31.2,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.summoners]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.3]"
+ordering = "NONE"
+side = "BOTH"

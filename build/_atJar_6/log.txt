@@ -1,0 +1,5 @@
+Args: "--inJar", "/Users/Marten/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.1.22/forge-1.16.3-34.1.22-injected.jar", "--outJar", "/Users/Marten/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.1.22_mapped_snapshot_20200916-1.16.2/forge-1.16.3-34.1.22_mapped_snapshot_20200916-1.16.2.jar", "--logFile", "accesstransform.log", "--atFile", "/Users/Marten/Desktop/Projekte/Minecraft Projects/mods/Summoners/build/_atJar_6/parent_at.cfg"
+Classpath: /Users/Marten/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/1.0.5/accesstransformers-1.0.5-fatjar.jar
+WorkDir: /Users/Marten/Desktop/Projekte/Minecraft Projects/mods/Summoners/build/_atJar_6
+Main: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
