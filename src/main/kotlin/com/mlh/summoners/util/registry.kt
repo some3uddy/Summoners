@@ -5,9 +5,11 @@ import com.mlh.summoners.blocks.CorundumBlock
 import com.mlh.summoners.entities.CanidEntity
 import com.mlh.summoners.entities.ScarabEntity
 import net.minecraft.client.settings.KeyBinding
+import net.minecraft.client.util.InputMappings
 import net.minecraft.entity.EntityClassification
 import net.minecraft.entity.EntityType
 import net.minecraft.util.ResourceLocation
+import net.minecraftforge.client.settings.KeyConflictContext
 import net.minecraftforge.fml.client.registry.ClientRegistry
 import net.minecraftforge.registries.ForgeRegistries
 import org.lwjgl.glfw.GLFW
@@ -22,10 +24,8 @@ fun registerRegistry() {
     BLOCK_REGISTRY.register(MOD_BUS)
     ITEM_REGISTRY.register(MOD_BUS)
     ENTITY_REGISTRY.register(MOD_BUS)
+    ClientRegistry.registerKeyBinding(OPEN_DEMON_GUI_KEY_BIND)
 }
-
-//register keybindings here
-val OPEN_DEMON_GUI_KEY_BIND = KeyBinding("key.open_demon_gui", GLFW.GLFW_KEY_G, "key.category.summoners").also { ClientRegistry.registerKeyBinding(it) }
 
 //register blocks here
 val CORUNDUM_BLOCK by BLOCK_REGISTRY.register("corundum_block") { CorundumBlock }
@@ -50,6 +50,13 @@ val SCARAB: EntityType<ScarabEntity> by ENTITY_REGISTRY.register("scarab") {
             .size(0.4f, 0.3f)
             .build(ResourceLocation(Summoners.ID, "scarab").toString())
 }
+
+//register keybindings here
+val OPEN_DEMON_GUI_KEY_BIND = KeyBinding(
+        "key.open_demon_gui",
+        KeyConflictContext.IN_GAME,
+        InputMappings.getInputByCode(GLFW.GLFW_KEY_G, -1),
+        "key.category.summoners")
 
 
 

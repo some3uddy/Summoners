@@ -12,8 +12,16 @@ import net.minecraftforge.fml.common.Mod
 object KeyInputEvent {
     @SubscribeEvent
     fun onKeyInput(event: InputEvent.KeyInputEvent) {
+        
         when (event.key) {
-            OPEN_DEMON_GUI_KEY_BIND.key.keyCode -> DemonScreen.open()
+            OPEN_DEMON_GUI_KEY_BIND.key.keyCode -> handleOpenDemonGUI()
         }
+    }
+
+    private fun handleOpenDemonGUI() {
+        if (!OPEN_DEMON_GUI_KEY_BIND.isKeyDown || !OPEN_DEMON_GUI_KEY_BIND.isPressed || !OPEN_DEMON_GUI_KEY_BIND.isConflictContextAndModifierActive) {
+            return
+        }
+        DemonScreen.open()
     }
 }
